@@ -1,0 +1,18 @@
+[
+{
+  "model": "oauth2_provider.application",
+  "pk": 1,
+  "fields": {
+    "client_id": "ULxeq4MXV6JyapHRlIQPu2ycqJN2K4ODIre32zLX",
+    "user": null,
+    "redirect_uris": "",
+    "client_type": "public",
+    "authorization_grant_type": "password",
+    "client_secret": "S0jj7j3n5bsHBvQBuPmd2JNaZEltFX2wYonMaL8FOiTyG6GnhbTLLLLlM0JwZ7w48UTAMvvAIVPakXhSKcaUYMzvS81Nfyc8wEXi5SJoPcTIUkgIFug3CxZ0sku6C4Do",
+    "name": "fe-server",
+    "skip_authorization": false,
+    "created": "2017-06-22T00:25:32.545Z",
+    "updated": "2017-06-22T00:25:32.545Z"
+  }
+}
+]

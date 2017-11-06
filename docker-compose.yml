@@ -1,0 +1,11 @@
+fe_auth:
+  dockerfile: Dockerfile
+  build: .
+  environment:
+   - DJANGO_SETTINGS_MODULE=server.settings.docker
+  volumes:
+    - ./requirements:/requirements
+    - ./source:/app
+    - ~/.docker-volumes/fe_auth/database:/database
+  ports:
+    - 7000:8000

@@ -1,1 +1,7 @@
+**/db.sqlite3
+*.pyc
+.cache
+.coverage
+.eggs
 .idea
+fe_auth_server.egg-info
